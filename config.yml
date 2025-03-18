@@ -37,10 +37,6 @@ params:
   shortDateFormat: 15:04 UTC — Jan 2
   down: "#e60000"
   systems:
-    - name: Gateway
-      category: North Coast
-    - name: Backup Gateway
-      category: North Coast
     - name: Website
       description: The web frontend for the application.
       category: Uncategorized
@@ -48,10 +44,10 @@ params:
     - name: API
       description: The guts of the application.
       category: Uncategorized
-    - name: Media Proxy
-      description: This is the service responsible for serving images, audio, and
-        video. It is reliant on our CDN.
-      category: Uncategorized
+    - name: 主页前端
+      category: 主站相关
+    - name: 主页后端
+      category: 主站相关
   dateFormat: January 2, 2006 at 3:04 PM UTC
   brand: "#0a0c0f"
   enableLastMod: true
@@ -74,6 +70,8 @@ params:
     - name: Empty Category
     - name: Uncategorized
       untitled: true
+    - name: 主站相关
+      closed: true
   description: We continuously monitor the status of our services and if there are
     any interruptions, a note will be posted here.
   enableCustomHTML: true
