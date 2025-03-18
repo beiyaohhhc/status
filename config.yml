@@ -37,17 +37,16 @@ params:
   shortDateFormat: 15:04 UTC — Jan 2
   down: "#e60000"
   systems:
-    - name: Website
-      description: The web frontend for the application.
-      category: Uncategorized
-      link: https://example.com/
-    - name: API
-      description: The guts of the application.
-      category: Uncategorized
-    - name: 主页前端
+    - name: 主站前端
       category: 主站相关
-    - name: 主页后端
+    - name: 主站后端
       category: 主站相关
+    - name: 审核站前端
+      category: 审核站相关
+    - category: 审核站相关
+      name: 审核站后端
+    - name: Bot服务
+      category: Bot相关
   dateFormat: January 2, 2006 at 3:04 PM UTC
   brand: "#0a0c0f"
   enableLastMod: true
@@ -64,13 +63,11 @@ params:
   disableIncidentHistory: false
   ok: "#008000"
   categories:
-    - name: North Coast
-      description: The main servers are located here.
-      closed: true
-    - name: Empty Category
-    - name: Uncategorized
-      untitled: true
     - name: 主站相关
+      closed: true
+    - name: 审核站相关
+      closed: true
+    - name: Bot相关
       closed: true
   description: We continuously monitor the status of our services and if there are
     any interruptions, a note will be posted here.
