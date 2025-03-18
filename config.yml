@@ -37,10 +37,10 @@ params:
   shortDateFormat: 15:04 UTC — Jan 2
   down: "#e60000"
   systems:
-    - name: 主站前端
+    - name: 查询站前端
       category: 管理组服务
       link: https://northlank.top
-    - name: 主站后端
+    - name: 查询站后端
       category: 管理组服务
     - name: 审核站前端
       category: 管理组服务
@@ -68,7 +68,7 @@ params:
   categories:
     - name: 北极熊网站
     - name: 管理组服务
-      description: 内含地图查询主站,入群审核站,Bot 状态信息...
+      description: 内含地图查询站,入群审核站,Bot 状态信息...
   description: 我们将持续监控我们的服务状态, 如有任何中断, 我们将在此发布说明.
   enableCustomHTML: true
   useLargeHeaderDesign: false
