@@ -38,15 +38,15 @@ params:
   down: "#e60000"
   systems:
     - name: 主站前端
-      category: 主站相关
+      category: 管理组服务相关
     - name: 主站后端
-      category: 主站相关
+      category: 管理组服务相关
     - name: 审核站前端
-      category: 审核站相关
-    - category: 审核站相关
+      category: 管理组服务相关
+    - category: 管理组服务相关
       name: 审核站后端
     - name: Bot服务
-      category: Bot相关
+      category: 管理组服务相关
   dateFormat: January 2, 2006 at 3:04 PM UTC
   brand: "#0a0c0f"
   enableLastMod: true
@@ -54,6 +54,7 @@ params:
   logo: /img/logo.jpg
   incidentPostsPerPage: 10
   googleAnalytics: UA-00000000-1
+  customTabs: []
   alwaysKeepBrandColor: true
   disableComplexCalculations: false
   useLogo: true
@@ -63,13 +64,9 @@ params:
   disableIncidentHistory: false
   ok: "#008000"
   categories:
-    - name: 主站相关
-      closed: false
-    - name: 审核站相关
-      closed: false
-    - name: Bot相关
-      closed: false
-  description: We continuously monitor the status of our services and if there are
-    any interruptions, a note will be posted here.
+    - name: 北极熊网站
+    - name: 管理组服务相关
+      description: 内含地图查询主站,入群审核站,Bot 状态信息...
+  description: 我们将持续监控我们的服务状态, 如有任何中断, 我们将在此发布说明.
   enableCustomHTML: true
   useLargeHeaderDesign: false
