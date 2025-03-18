@@ -38,15 +38,15 @@ params:
   down: "#e60000"
   systems:
     - name: 主站前端
-      category: 管理组服务相关
+      category: 管理组服务
     - name: 主站后端
-      category: 管理组服务相关
+      category: 管理组服务
     - name: 审核站前端
-      category: 管理组服务相关
-    - category: 管理组服务相关
+      category: 管理组服务
+    - category: 管理组服务
       name: 审核站后端
     - name: Bot服务
-      category: 管理组服务相关
+      category: 管理组服务
   dateFormat: January 2, 2006 at 3:04 PM UTC
   brand: "#0a0c0f"
   enableLastMod: true
@@ -65,7 +65,7 @@ params:
   ok: "#008000"
   categories:
     - name: 北极熊网站
-    - name: 管理组服务相关
+    - name: 管理组服务
       description: 内含地图查询主站,入群审核站,Bot 状态信息...
   description: 我们将持续监控我们的服务状态, 如有任何中断, 我们将在此发布说明.
   enableCustomHTML: true
