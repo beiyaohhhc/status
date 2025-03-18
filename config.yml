@@ -2,7 +2,7 @@ title: Icebear Service Status
 buildFuture: true
 defaultContentLanguage: en
 languageCode: zh
-baseURL: https://status.northlank.top
+baseURL: https://status.zeroicebear.com
 theme: cstate
 preserveTaxonomyNames: true
 taxonomies:
