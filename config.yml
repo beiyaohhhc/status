@@ -39,10 +39,12 @@ params:
   systems:
     - name: 主站前端
       category: 管理组服务相关
+      link: https://northlank.top
     - name: 主站后端
       category: 管理组服务相关
     - name: 审核站前端
       category: 管理组服务相关
+      link: https://audit.northlank.top
     - category: 管理组服务相关
       name: 审核站后端
     - name: Bot服务
