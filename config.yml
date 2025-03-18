@@ -1,6 +1,6 @@
 title: Icebear Service Status
 buildFuture: true
-defaultContentLanguage: en
+defaultContentLanguage: ru
 languageCode: zh
 baseURL: https://status.zeroicebear.com
 theme: cstate
