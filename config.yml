@@ -49,6 +49,8 @@ params:
       name: 审核站后端
     - name: Bot服务
       category: 管理组服务
+    - name: 邮件服务器
+      category: 管理组服务
   dateFormat: January 2, 2006 at 3:04 PM UTC
   brand: "#0a0c0f"
   enableLastMod: true
